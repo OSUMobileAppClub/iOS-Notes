@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC90AC2219FFFAC8005A28F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90AC2119FFFAC8005A28F1 /* main.m */; };
+		AC90AC2A19FFFAEF005A28F1 /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90AC2919FFFAEF005A28F1 /* Strings.m */; };
+		AC90AC2D19FFFCCB005A28F1 /* dictionaries.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90AC2C19FFFCCB005A28F1 /* dictionaries.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC90AC1C19FFFAC8005A28F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC90AC1E19FFFAC8005A28F1 /* ObjectsDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectsDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90AC2119FFFAC8005A28F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC90AC2819FFFAEF005A28F1 /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strings.h; path = Strings/Strings.h; sourceTree = "<group>"; };
+		AC90AC2919FFFAEF005A28F1 /* Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Strings.m; path = Strings/Strings.m; sourceTree = "<group>"; };
+		AC90AC2B19FFFCCB005A28F1 /* dictionaries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dictionaries.h; path = Dictionaries/dictionaries.h; sourceTree = "<group>"; };
+		AC90AC2C19FFFCCB005A28F1 /* dictionaries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dictionaries.m; path = Dictionaries/dictionaries.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC90AC1B19FFFAC8005A28F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC90AC1519FFFAC8005A28F1 = {
+			isa = PBXGroup;
+			children = (
+				AC90AC2019FFFAC8005A28F1 /* ObjectsDemo */,
+				AC90AC1F19FFFAC8005A28F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC90AC1F19FFFAC8005A28F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC90AC1E19FFFAC8005A28F1 /* ObjectsDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC90AC2019FFFAC8005A28F1 /* ObjectsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC90AC2119FFFAC8005A28F1 /* main.m */,
+				AC90AC2819FFFAEF005A28F1 /* Strings.h */,
+				AC90AC2919FFFAEF005A28F1 /* Strings.m */,
+				AC90AC2B19FFFCCB005A28F1 /* dictionaries.h */,
+				AC90AC2C19FFFCCB005A28F1 /* dictionaries.m */,
+			);
+			path = ObjectsDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC90AC1D19FFFAC8005A28F1 /* ObjectsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC90AC2519FFFAC8005A28F1 /* Build configuration list for PBXNativeTarget "ObjectsDemo" */;
+			buildPhases = (
+				AC90AC1A19FFFAC8005A28F1 /* Sources */,
+				AC90AC1B19FFFAC8005A28F1 /* Frameworks */,
+				AC90AC1C19FFFAC8005A28F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectsDemo;
+			productName = ObjectsDemo;
+			productReference = AC90AC1E19FFFAC8005A28F1 /* ObjectsDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC90AC1619FFFAC8005A28F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MobileAppClub;
+				TargetAttributes = {
+					AC90AC1D19FFFAC8005A28F1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = AC90AC1919FFFAC8005A28F1 /* Build configuration list for PBXProject "ObjectsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC90AC1519FFFAC8005A28F1;
+			productRefGroup = AC90AC1F19FFFAC8005A28F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC90AC1D19FFFAC8005A28F1 /* ObjectsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC90AC1A19FFFAC8005A28F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC90AC2A19FFFAEF005A28F1 /* Strings.m in Sources */,
+				AC90AC2219FFFAC8005A28F1 /* main.m in Sources */,
+				AC90AC2D19FFFCCB005A28F1 /* dictionaries.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC90AC2319FFFAC8005A28F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC90AC2419FFFAC8005A28F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC90AC2619FFFAC8005A28F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC90AC2719FFFAC8005A28F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC90AC1919FFFAC8005A28F1 /* Build configuration list for PBXProject "ObjectsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90AC2319FFFAC8005A28F1 /* Debug */,
+				AC90AC2419FFFAC8005A28F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC90AC2519FFFAC8005A28F1 /* Build configuration list for PBXNativeTarget "ObjectsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC90AC2619FFFAC8005A28F1 /* Debug */,
+				AC90AC2719FFFAC8005A28F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC90AC1619FFFAC8005A28F1 /* Project object */;
+}
