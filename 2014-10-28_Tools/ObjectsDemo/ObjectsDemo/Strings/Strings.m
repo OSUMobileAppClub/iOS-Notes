@@ -14,15 +14,21 @@
     NSString *myString = @"cat";
     // Strings are immutable, so simply adding to a string will not work
     // we need to append
-    NSString *newString = [myString stringByAppendingString:@"%@ and Dogs"];
+    NSString *newString = [myString stringByAppendingString:@" and Dogs"];
     NSLog(@"init String: %@", myString);
     NSLog(@"new String : %@", newString);
 }
 
 +(void) helloMutability {
-    NSMutableString *mutString = @"cat";
+    NSMutableString *mutString = [[NSMutableString alloc] init];
     [mutString appendString:@"and dogs"];
     NSLog(@"newString: %@", mutString);
+}
+
+- (void) toDoThigns {
+    NSString *s = @"banana";
+    [s length]; // reault -> 6?
+    [NSString class]; // result -> NSString
 }
 
 @end

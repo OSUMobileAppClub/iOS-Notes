@@ -12,7 +12,8 @@
 
 int main(int argc, const char * argv[]) {
     
-    [Strings letsPlayWithStrings];
-    [dictionaries dictionaries];
+//    [Strings letsPlayWithStrings];
+//    [dictionaries dictionaries];
+    [Strings helloMutability];
     return 0;
 }

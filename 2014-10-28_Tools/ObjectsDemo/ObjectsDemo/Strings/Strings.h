@@ -12,6 +12,6 @@
 
 + (void) letsPlayWithStrings;
 
-+(void) helloMutability;
++ (void) helloMutability;
 
 @end
